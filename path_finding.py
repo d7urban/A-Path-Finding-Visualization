@@ -86,7 +86,7 @@ for i in range(cols):
     for j in range(row):
         grid[i][j].show((255, 255, 255), 1)
 
-for i in range(0,row):
+for i in range(row):
     grid[0][i].show(grey, 0)
     grid[0][i].obs = True
     grid[cols-1][i].obs = True
